@@ -5,7 +5,7 @@ import sys
 
 # Get user supplied values
 
-#imagePath = sys.argv[1]
+#imagePath = sys.argv[1]   #image path as part of the argument
 
 #cascPath = sys.argv[2]
 
@@ -21,7 +21,7 @@ faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 image = cv2.imread("sample2.jpg")
 
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)	#change to grayscale
 
 
 
